@@ -1,0 +1,117 @@
+Student Placement Representative at UPES
+CSR Lead at UPES under guidance of Mr. Ravi Tomar
+Secretary and Design Executive IGNITE 2019-2018 respectively, UPES Technical fest.
+Organizing Committee Head Infrastructure UURJA 2018, UPES Cultural Fest.
+Run for Life Event - Head at UPES.
+Organizer IEEE Sight Awareness Activity.
+National U-16 Cricket Tournament (North Zone).
+1st Position in Project Idea Competition organized by UPES IEEE Computer Society Student Chapter.
+2nd Position in the event Glitch (Web Development) of UPES-ACM&ACM-W Student Chapters’
+Certificate of Participation in Arduino workshop held at IIT Delhi.
+Certificate of Appreciation work as a Volunteer on hands-on workshop on developing Augmented Reality App by Intel
+
+
+
+Object-oriented programming (OOP) is a programming language model in which programs are organized around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior. Examples of an object can range from physical entities, such as a human being that is described by properties like name and address, down to small computer programs, such as widgets. 
+
+
+using UnityEngine;
+using System.Collections;
+
+public class ExampleClass : MonoBehaviour
+{
+    public void Update()
+    {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Debug.Log(Input.mousePosition);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+using UnityEngine;
+
+public class KeyCodeExample : MonoBehaviour
+{
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Debug.Log("Space key was pressed.");
+        }
+
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            Debug.Log("Space key was released.");
+        }
+    }
+}
+
+
+Key codes can be used to detect key down and key up events, using Input.GetKeyDown and Input.GetKeyUp:
+
+
+
+Use the Input settings (top menu: Edit > Project Settings, then select the Input category) to define the input axes and game actions for your Project.
+
+
+
+
+
+
+Using axes during Game Play
+All the axes that you set up in the Input settings serve two purposes:
+
+They allow you to reference your inputs by axis name in scripting.
+They allow the players of your game to customize the controls to their liking.
+The game launcher presents all defined axes, where it displays the name, detailed description, and default buttons for each. From here, they can change any of the buttons defined in the axes. Therefore, it is best to write your scripts
+ making use of axes instead of individual buttons, as the player may want to customize the buttons for your game.
+
+
+
+Transforms
+The Transform is used to store a GameObject
+’s position, rotation, scale and parenting state and is thus very important. A GameObject will always have a Transform component attached - it is not possible to remove a Transform or to create a GameObject without one.
+
+
+Rotation Constraints
+A Rotation Constraint component rotates a GameObject to match the rotation of its source GameObjects
+
+
+
+Cameras
+ are the devices that capture and display the world to the player. By customizing and manipulating cameras, you can make the presentation of your game truly unique. You can have an unlimited number of cameras in a scene
+. They can be set to render in any order, at any place on the screen, or only certain parts of the screen.
+
+
+Types of light
+This section details the many different ways of creating light in Unity.
+
+Point lights
+A point light is located at a point in space and sends light out in all directions equally. The direction of light hitting a surface is the line from the point of contact back to the center of the light object. The intensity diminishes with distance from the light, reaching zero at a specified range. Light intensity is inversely proportional to the square of the distance from the source. This is known as ‘inverse square law’ and is similar to how light behaves in the real world.
+
+
+
+
+
+
+Spot lights
+Like a point light, a spot light has a specified location and range over which the light falls off. However, the spot light is constrained to an angle, resulting in a cone-shaped region of illumination. The center of the cone points in the forward (Z) direction of the light object. Light also diminishes at the edges of the spot light’s cone. Widening the angle increases the width of the cone and with it increases the size of this fade, known as the ‘penumbra’.
+
+
+Directional lights
+Directional lights are very useful for creating effects such as sunlight in your scenes. Behaving in many ways like the sun, directional lights can be thought of as distant light sources which exist infinitely far away. A directional light does not have any identifiable source position and so the light object can be placed anywhere in the scene. All objects in the scene are illuminated as if the light is always from the same direction. The distance of the light from the target object is not defined and so the light does not diminish.
+
+
+
+
+
+
+
